@@ -11,8 +11,8 @@ class HotConfig
 
 exports.create = (files) ->
     cnf = new HotConfig
-    httpHandle = (req, res) ->
+    reload = (req, res) ->
         if req.path is '__reload_config__'
             cnf.reload req.query.name
             res.send 200
-    {cnf, httpHandle}
+    {cnf, reload}
