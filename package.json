@@ -1,0 +1,17 @@
+{
+  "name": "hot-config",
+  "version": "0.0.0",
+  "description": "hot-config ==========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amazo/hot-config.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "267a8e8bbc83333dfc461697daf693178da2a946"
+}
