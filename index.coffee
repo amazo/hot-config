@@ -10,7 +10,7 @@ class HotConfig
         @cnf[name]
 
 exports.create = (files) ->
-    cnf = new HotConfig
+    cnf = new HotConfig files
     getConfig = (name) ->
         cnf.get name
     reload_config_path = '/__reload_config__'
